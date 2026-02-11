@@ -3,15 +3,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background: linear-gradient(135deg, #5cabdf, #29077d);
 }
 
 .clock {
   font-size: 3rem;
   color: white;
-  background-color: black;
+  background: linear-gradient(135deg, #f0f2f4, #04010c);
   padding: 20px 40px;
   border-radius: 10px;
   letter-spacing: 2px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Digital-7', 'Courier New', Courier, monospace;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.clock:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
