@@ -1,4 +1,13 @@
-# React + Vite
+# Color-Clock
+
+This is a clock that updates in real time, providing the current date, and time.
+
+## How to use
+
+Type npm run dev into your terminal and run it. Click the http link. This will open the local page and allow you to see the clock.
+
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
