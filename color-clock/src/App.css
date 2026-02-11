@@ -1,0 +1,17 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.clock {
+  font-size: 3rem;
+  color: white;
+  background-color: black;
+  padding: 20px 40px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-family: 'Courier New', Courier, monospace;
+}
